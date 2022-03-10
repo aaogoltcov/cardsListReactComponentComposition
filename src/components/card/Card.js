@@ -1,5 +1,4 @@
 import {Component} from "react";
-import shortid from "shortid";
 
 export default class Card extends Component {
     constructor(props) {
