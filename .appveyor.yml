@@ -1,5 +1,5 @@
 image: Ubuntu # образ для сборки
-stack: node 14 # окружение
+stack: node 16 # окружение
 branches:
   only:
     - master # ветка git
