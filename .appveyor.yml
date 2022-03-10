@@ -5,10 +5,10 @@ branches:
     - master # ветка git
 cache: node_modules # кеширование
 install:
-  - yarn install # команда установки зависимостей
+  - npm install # команда установки зависимостей
 build: off
 build_script:
-  - yarn build # команда сборки
+  - npm run build # команда сборки
 #test_script:
 #  - yarn test # скрипт тестирования
 environment:
