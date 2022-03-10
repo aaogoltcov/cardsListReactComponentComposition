@@ -5,12 +5,12 @@ branches:
     - master # ветка git
 cache: node_modules # кеширование
 install:
-  - npm install # команда установки зависимостей
+  - npm ci # команда установки зависимостей
 build: off
 build_script:
-  - npm build # команда сборки
+  - npm run build # команда сборки
 #test_script:
-#  - npm test # скрипт тестирования
+#  - npm run test # скрипт тестирования
 environment:
   access_token:
     secure: zvJf04PyuDyqf4jjwwyBrw9chz6Q9x7OeBPN0jYQ9Y80ygA4VMOO4pimFzC8jgyt
